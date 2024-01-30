@@ -1,0 +1,100 @@
+/* Estilo para el título de la página principal */
+body {
+  transition: background-color 0.5s ease;
+  background-color: #EAEDED;
+}
+
+.titulo {
+  margin-top: 1em;
+  color: #0b0b0b;
+  /* Cambia el color del texto según tus preferencias */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Cambia la fuente según tus preferencias */
+  font-size: 2.5em;
+  /* Ajusta el tamaño del texto según tus preferencias */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  /* Añade una sombra al texto */
+  /* border-bottom: 2px solid #090909; Añade un borde inferior */
+  padding-bottom: 0.5em;
+  /* Añade espacio entre el texto y el borde inferior */
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.077);
+}
+
+.border {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+}
+
+.fondo {
+  background-image: url("../img/logo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fuente {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 20px;
+}
+
+.section-title {
+  color: #2e74b5;
+}
+
+.welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  margin-bottom: 8px;
+}
+
+.link {
+  color: #2e74b5;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.carrousel-item img {
+  width: 100%;
+  height: 400px;
+  /* Establece aquí la altura deseada para las imágenes */
+
+  /* Ajusta la imagen para que se ajuste dentro del contenedor */
+}
+
+.carrousel {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.contenido{
+  background-color: rgba(100, 105, 105, 0.103);
+}
